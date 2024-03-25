@@ -55,7 +55,7 @@ const TopSection = () => {
             />
           ))}
         </div>
-        <div className="sm:w-[40%] 2xs:w-full xs:w-3/4 sticky top-5 lg:w-[20%] my-6">
+        <div className="sm:w-[40%] 2xs:w-full xs:w-3/4 lg:w-[20%] my-6">
           <AdCard
             img={ad}
             head="advertistment heading"
