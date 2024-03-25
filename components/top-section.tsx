@@ -1,5 +1,7 @@
 import React from "react";
 import player from "@/public/277307281_10158751675643224_148609460173032344_n.png";
+import player2 from "@/public/player2.png";
+import player3 from "@/public/player3.png";
 import ad from "@/public/unnamed (1) 1.png";
 import TopSectionCards from "./top-section-cards";
 import AdCard from "./ad-card";
@@ -9,26 +11,26 @@ const TopSection = () => {
   const playerCards = [
     {
       img: player,
-      name: "Herbie",
-      totalEvents: "34 Events",
+      name: "Scaramento River Cats",
+      totalEvents: "48 Events",
       sport: "baseball",
     },
     {
-      img: player,
-      name: "Herbie",
-      totalEvents: "34 Events",
+      img: player2,
+      name: "Las Vegas Aviators",
+      totalEvents: "28 Events",
       sport: "baseball",
     },
     {
-      img: player,
-      name: "Herbie",
-      totalEvents: "34 Events",
-      sport: "baseball",
+      img: player3,
+      name: "New Jersey Devils",
+      totalEvents: "15 Events",
+      sport: "Ice Hokey",
     },
     {
-      img: player,
-      name: "Herbie",
-      totalEvents: "34 Events",
+      img: player2,
+      name: "Las Vegas Aviators",
+      totalEvents: "28 Events",
       sport: "baseball",
     },
   ];

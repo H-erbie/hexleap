@@ -1,5 +1,6 @@
 import React from "react";
 import player from "@/public/Ticket_Mockup 3.png";
+import ticket2 from "@/public/unnamed 1.png";
 import BottomSectionCards from "./bottom-section-cards";
 import CarouselBtns from "./carousel-btns";
 import { ChevronLeft, ChevronRight } from "lucide-react";
@@ -8,33 +9,33 @@ const BottomSection = () => {
   const tickets = [
     {
       img: player,
-      name: "Herbie",
+      name: "Las Vegas Aviators",
       date: {
         monthDate: "oct 15",
         day: "sun",
         time: "4:30 pm",
       },
-      place: "34 Events",
+      place: "Las Vegas Ballpark, Las Vegas, Nevada",
+    },
+    {
+      img: ticket2,
+      name: "Sacramento River Cats",
+      date: {
+        monthDate: "oct 15",
+        day: "sun",
+        time: "4:30 pm",
+      },
+      place: "Sutter Health Park, Sacramento, California",
     },
     {
       img: player,
-      name: "Herbie",
+      name: "Las Vegas Aviators",
       date: {
         monthDate: "oct 15",
         day: "sun",
         time: "4:30 pm",
       },
-      place: "34 Events",
-    },
-    {
-      img: player,
-      name: "Herbie",
-      date: {
-        monthDate: "oct 15",
-        day: "sun",
-        time: "4:30 pm",
-      },
-      place: "34 Events",
+      place: "Las Vegas Ballpark, Las Vegas, Nevada",
     },
   ];
   return (
